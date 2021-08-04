@@ -1672,8 +1672,6 @@ class MyApp extends StatelessWidget {
 
 
 class Homepage extends StatefulWidget {
-
-
   @override
   _HomepageState createState() => _HomepageState();
 }
@@ -1715,7 +1713,7 @@ class _HomepageState extends State<Homepage> {
       body:Center(
         child: OutlineButton(
           onPressed: checkConnectvity,
-          child: Text("Check connnectonh;"),
+          child: Text("Check connnection;"),
         ),
       ),
     );
